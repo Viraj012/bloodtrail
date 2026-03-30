@@ -1,0 +1,22 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Unreal / Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary assets (no EOL conversion)
+*.uasset binary
+*.umap binary
+*.udk binary
+*.uexp binary
+*.ubulk binary
+*.uptnl binary
+*.ilk binary
+*.pdb binary
+*.dll binary
+*.exe binary
+*.lib binary
+*.dylib binary
+*.so binary

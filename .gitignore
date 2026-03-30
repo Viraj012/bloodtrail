@@ -1,0 +1,60 @@
+# --- Unreal Engine (generated / local) ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+*.DotSettings.user
+
+# Per-user Unreal / Rider / VS Code
+*.code-workspace
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & caches (sometimes outside Saved)
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Crash & debug
+*.pdb
+*.ilk
+*.exp
+
+# Python (if you add tools under the repo later)
+.venv/
+__pycache__/
+*.py[cod]
+.Python
+*.egg-info/
+
+# Optional: large local captures (remove if you want these in Git)
+# Content/Movies/
+
+# Cursor IDE: share project rules; ignore other local Cursor files (incl. mcp.json)
+.cursor/*
+!.cursor/rules/
+
+# Local-only notes / course docs (not in repo)
+/suggestions
+*Proposal*.pdf
+
+# Cursor / AI bridge — not part of the game; install locally if you use MCP
+Plugins/UnrealMCP/
